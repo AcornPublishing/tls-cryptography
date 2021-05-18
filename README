@@ -1,0 +1,32 @@
+####   인증서 파일들   ####
+
+server-cert.pem : 9장 2절(Certificate장 PEM절)에서 사용된 인증서
+
+key.pem : 22장(Certificate함수의 구현)에서 만든 키 파일
+cert.pem : 22장에서 만든 인증서
+
+ec_cert.pem : 35장 5절(TLS 1.3구현 인증서절)에서 생성한 인증서
+ec_key.pem : 35장 5절(TLS 1.3구현 인증서절)에서 생성한 비밀키 파일
+
+####   실행화일들   ####
+
+catch.tst.x : 테스트 실행 파일
+incltouch.x : 컴파일에 필요한 유틸리티 
+caesar.src.x : 카이사르 암호 실행 파일
+powm_primitive.src.x : 1장의 디피헬만에서 원시근 구하는 함수
+pem.src.x : PEM 파일을 출력
+cert.src.x : 9장의 인증서 체인의 확인
+
+svcl.src.x : 29장 TCPIP를 거치지 않는 테스트 실행 함수
+
+server.src.x, client.src.x : 31장 4절 암호화되지 않은 TCPIP통신 실행 파일
+
+tls-server.src.x, tls-client.src.x : 32장의 tls1.2 클라이언트 서버
+
+tls13-client.src.x : 36장 1절의 tls1.3 클라이언트
+
+https.src.x : 36장 2절 tls1.3 미들서버
+site.tcpip.x : 36장 2절에서 사용한 http 서버
+
+
+####### 질문 및 문의 사항은 www.zeta2374.com 을 방문해 주세요 ########
